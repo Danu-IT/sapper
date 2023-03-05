@@ -37,7 +37,7 @@ const Game = () => {
   const size = 16;
   const dimension = new Array(size).fill(null);
 
-  const [mineCount, setMineCount] = useState<number>(4);
+  const [mineCount, setMineCount] = useState<number>(40);
   const [field, setField] = useState<number[]>(() => createField(size, Mine));
   const [mask, setMask] = useState<Mask[]>(
     new Array(size * size).fill(Mask.Fill)

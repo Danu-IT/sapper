@@ -10,7 +10,7 @@ export const createField = (size: number, mine: number): number[] => {
       }
     }
 
-    for (let i = 0; i < 4; ) {
+    for (let i = 0; i < 40; ) {
       const x = Math.floor(Math.random() * size);
       const y = Math.floor(Math.random() * size);
 
